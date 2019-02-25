@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Fc barcelona</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Fc barcelona Lassa">
+    <link rel="stylesheet" href="../style/style.css" > 
+  </head>  
+  <body>
+
+  <div class="container">
+    <header>
+	<div class="logo"><img src="LOGOTIPO-FC-BARCELONA-LASSA_VERTICAL.jpg" width="110" height="100" alt=""/></div>
+		<div class="titulo"><h1>Barca Lassa Registro</h1></div>
+			<h2 class="subtitulos">REGISTRARME</h2>
+    </header> 
+	
+    <section>      
+	<div class="container-form">
+	
+		<form action="registrar.php" method="post">    <!--   // se cambia dependiendo de la pagina -->
+			<div class="campo">
+				<label for="text"> Usuario:</label>
+				<input type="text" name="Usuario" class="form-imput" placeholder=" Usuario" required>
+			</div>
+			<div class="campo">
+				<label for="text">Contraseña:</label>
+				<input type="text" name="Contraseña" maxlength="20" class="form-imput" placeholder="Contraseña" required>
+			</div>
+			<div class="campo">
+				<label for="text">Repetir Contraseña:</label>
+				<input type="text" name="Repetir Contraseña" maxlength="20" class="form-imput" placeholder="Repetir Contraseña" required>
+			</div>
+			<div class="campo">
+				<label for="text">Email:</label>
+				<input type="text" name="Email" maxlength="20" class="form-imput" placeholder="Email" required>
+			</div>
+			<div class="campo">
+				<label for="text">Pimer nombre:</label>
+				<input type="password" name="Primer nombre" maxlength="20" class="form-imput" placeholder="Primer nombre" required>
+			</div>
+			<div class="campo">
+				<label for="text">Segundo nombre:</label>
+				<input type="password" name="Segundo nombre" maxlength="20" class="form-imput" placeholder="Segundo nombre" required>
+			</div>
+			<div class="campo">
+				<label for="text">Sexo:</label>
+				<input type="email" name="Sexo" maxlength="20" class="form-imput" placeholder="Sexo" required>
+				<label for="text">Numero de Identidad:</label>
+				<input type="email" name="Numero de Identidad" maxlength="20" class="form-imput" placeholder="Numero de identidad" required>
+			</div>
+			<div class="campo">
+				<label for="text">Nacionalidad</label>
+				<select name="" id="city" id="id required">
+					<option value="">Vnezuela</option>
+					<option value="">España</option>
+					<option value="">Usa</option>
+				</select>
+			</div>
+			</div>
+			<div class="campo text-center">
+				<button type="submit" class="button3">Registrar</button>
+				<button type="button" class="button4" onclick="location.href='index.html'"> Iniciar Sesion</button>
+				<button type="reset" class="button5" onclick="location.href='Registro.html'"> Resetear info</button>
+			</div>
+		</form>
+	</div>
+    </section>
+
+    <footer>
+			<h3>FC Barcelona copyrigth© </h3>
+	</footer>
+	</div>
+  </body>  
+</html>
