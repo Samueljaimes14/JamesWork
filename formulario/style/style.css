@@ -1,8 +1,9 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url(img/CAMP_NOU.JPG);
-    background-size: auto;
+    background-image: url(https://cdn.discordapp.com/attachments/547069410196717568/552574924124848143/ptJXIIb.jpg);
+ background-size: cover;
+
 }
 .container{
     
@@ -144,7 +145,7 @@ label{
     margin-top: 20px;
 }
 h3{
-   background: linear-gradient(rgb(255, 255, 255) , rgb(0, 0, 0));
+   background: solid yellow ;
     -webkit-background-clip: text ;
  text-align: center;
  }
@@ -165,3 +166,4 @@ h3{
    margin-top: 50px;
    margin-left: 150px;
    }
+   
